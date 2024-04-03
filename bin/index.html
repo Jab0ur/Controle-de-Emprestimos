@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Empréstimo de DVDs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- conteúdo existente -->
+        <button onclick="toggleDarkMode()">Modo Noturno</button>
+    </div>
+    <div id="overlay"></div>
+    <div id="modal"></div>
+    <script src="script.js"></script>
+    <div class="container">
+        <h1>Controle de Empréstimo de DVDs</h1>
+        <div id="friends-section">
+            <h2>Amigos</h2>
+            <div id="friends-list"></div>
+            <button onclick="showFriendForm()">Adicionar Amigo</button>
+        </div>
+        <div id="dvds-section">
+            <h2>DVDs</h2>
+            <div id="dvds-list"></div>
+            <button onclick="showDvdForm()">Adicionar DVD</button>
+        </div>
+        <div id="loans-section">
+            <h2>Empréstimos</h2>
+            <div id="loans-list"></div>
+            <button onclick="showLoanForm()">Registrar Empréstimo</button>
+            <button onclick="showReturnForm()">Registrar Devolução</button> <!-- Adicionando o botão para registrar a devolução -->
+        </div>        
+    </div>
+    <div id="overlay"></div>
+    <div id="modal"></div>
+    <script src="script.js"></script>
+</body>
+</html>
